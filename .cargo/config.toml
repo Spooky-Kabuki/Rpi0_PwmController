@@ -1,0 +1,6 @@
+[build]
+target = "arm-unknown-linux-gnueabihf"
+
+# Pi 0/1
+[target.arm-unknown-linux-gnueabihf]
+linker = "build-rpi/tools/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"
